@@ -8,11 +8,12 @@ int main(){
 	for(int i=0;i<n;i++){
 		printf("\narray[%d]=",i);
 		scanf("%d",&array[i]);
-		while(array[i]%2!=0){
+		while(array[i]%2==0){
 			printf("\nVui long nhap lai : \narray[%d]=",i);
 			scanf("%d",&array[i]);
 		}
 	}
 	
 }
+
 
